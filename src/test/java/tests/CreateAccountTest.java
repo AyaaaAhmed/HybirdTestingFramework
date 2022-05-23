@@ -41,6 +41,7 @@ public class CreateAccountTest
 	public void setup(String browser)
 	{
 		testName =  "CreateAccountTest";
+		
 		BrowserActions.initalize_driver(testName, browser);
 	}
 	@Test(dataProvider="ExcelData")
