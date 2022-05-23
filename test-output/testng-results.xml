@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-23T16:06:11 EET" name="Regression Suite" finished-at="2022-05-23T16:07:49 EET" duration-ms="98574">
+    <groups>
+    </groups>
+    <test started-at="2022-05-23T16:06:11 EET" name="Firefox Test" finished-at="2022-05-23T16:07:49 EET" duration-ms="98509">
+      <class name="tests.CreateAccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:11 EET" name="setup" finished-at="2022-05-23T16:06:22 EET" duration-ms="11236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:22 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:37 EET" duration-ms="14771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aya1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:37 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:37 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:37 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:48 EET" duration-ms="11216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:48 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:48 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:48 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:53 EET" duration-ms="4750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:53 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:53 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:53 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:56 EET" duration-ms="3415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:56 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:56 EET" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:06:56 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:07:21 EET" duration-ms="24495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:07:21 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:07:21 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:07:21 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:07:48 EET" duration-ms="26624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:07:48 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:07:48 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@7331196b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateAccountTest@7331196b]" started-at="2022-05-23T16:07:48 EET" name="tearDown" finished-at="2022-05-23T16:07:49 EET" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateAccountTest -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2022-05-23T16:06:11 EET" name="Chrome Test" finished-at="2022-05-23T16:07:49 EET" duration-ms="98574">
+      <class name="tests.CreateAccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:11 EET" name="setup" finished-at="2022-05-23T16:06:16 EET" duration-ms="5581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:19 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:49 EET" duration-ms="29820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aya1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:49 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:49 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:49 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:53 EET" duration-ms="4541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:53 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:53 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:53 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:06:57 EET" duration-ms="3413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:57 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:06:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:06:57 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:07:21 EET" duration-ms="24534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:21 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:07:21 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:21 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:07:48 EET" duration-ms="26822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:48 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:07:48 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=SUCCESS method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method signature="HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:48 EET" name="HomePageSignIn" data-provider="ExcelData" finished-at="2022-05-23T16:07:49 EET" duration-ms="1089" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-3GNSTIR', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fa754d1b-07e5-4bc0-a665-aaf8ed4208cb, get {url=http://automationpractice.com/index.php?controller=authentication&back=my-account}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:debuggerAddress: localhost:51187, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 4532, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa754d1b-07e5-4bc0-a665-aaf8ed4208cb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-3GNSTIR', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fa754d1b-07e5-4bc0-a665-aaf8ed4208cb, get {url=http://automationpractice.com/index.php?controller=authentication&back=my-account}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:debuggerAddress: localhost:51187, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 4532, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa754d1b-07e5-4bc0-a665-aaf8ed4208cb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+at actions.UiActions.navigateToUrl(UiActions.java:32)
+at pages.CreateAccountPage.<init>(CreateAccountPage.java:15)
+at tests.CreateAccountTest.HomePageSignIn(CreateAccountTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSignIn -->
+        <test-method is-config="true" signature="screenshotONFaluir(org.testng.ITestResult)[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:49 EET" name="screenshotONFaluir" finished-at="2022-05-23T16:07:49 EET" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSignIn status=FAILURE method=CreateAccountTest.HomePageSignIn(java.lang.String)[pri:0, instance:tests.CreateAccountTest@6ccdb29f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+at utilities.Helper.captureScreenshots(Helper.java:22)
+at tests.CreateAccountTest.screenshotONFaluir(CreateAccountTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotONFaluir -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateAccountTest@6ccdb29f]" started-at="2022-05-23T16:07:49 EET" name="tearDown" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1653314869654" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateAccountTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
