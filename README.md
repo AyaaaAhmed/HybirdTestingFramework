@@ -1,4 +1,4 @@
-# HybirdTestingFramework
+# Hybird Testing Framework
 --------------------------------------------------------------------
 *i used cucuamber to implement BBD framework 
 <br />
