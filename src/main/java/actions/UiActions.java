@@ -1,14 +1,19 @@
 package actions;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 
 public class UiActions
 {
-	WebDriver driver;
+	public WebDriver driver;
 	public UiActions(String testName) {
 		this.driver = BrowserActions.browserAndTests.get(testName);
 	}
@@ -46,6 +51,18 @@ public class UiActions
 		{
 			return false;
 		}
+	}
+	public  String getDriverTitle()
+	{
+		String ActualTitle = driver.getTitle();
+		return ActualTitle;
+		
+	}
+	public void enterUserInfo(By submitAccount)
+	{
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(40));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(submitAccount));
+	
 	}
 
 }

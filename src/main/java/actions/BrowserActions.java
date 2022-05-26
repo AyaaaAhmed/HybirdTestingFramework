@@ -15,9 +15,11 @@ public class BrowserActions
 	{
 		if (browser.equalsIgnoreCase("chrome"))
 		{
+			System.out.println("***chrome***");
 			WebDriverManager.chromedriver().setup();
 			browserAndTests.put(classname,new ChromeDriver());
 			driver = browserAndTests.get(classname);
+			System.out.println("***testname = "+classname+"*****");
 		}
 		else if (browser.equalsIgnoreCase("chrome-headless")) 
 		{
