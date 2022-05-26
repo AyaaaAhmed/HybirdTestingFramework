@@ -1,5 +1,5 @@
 # HybirdTestingFramework
-*i used cucuamber to implement BBD framework \n
+*i used cucuamber to implement BBD framework 
 *i used hashmap to implement a parallel browsing techniq
 *i used chrome headless 
 *i used selenuim to be able to take screenshots on failure
