@@ -10,6 +10,4 @@
 <br />
 *i used DDT to overcome making data hard coded
 <br />
-*i used seleinum grid to have multiple browser running testcases in parallel
-<br />
 *i used allure reports
